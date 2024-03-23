@@ -1,4 +1,15 @@
-Instalando o pyenv
+# Este breve tutorial aborda a instalação do Pyenv e criação de Ambientes Virtuais.
+# Foi elaborado por Leonardo Bruno.
+# Está disponível nesse repositório um código de exemplo para testar o ambiente criado.
+# Para mais informações visite o github dos criadores dos projetos:
+# 
+# Projeto Pyenv
+# https://github.com/pyenv/pyenv
+#
+# Projeto cefpython3
+# https://github.com/cztomczak/cefpython
+
+# Instalando o Pyenv
 
 E se você precisar usar diversas versões do Python em diferentes projetos?
 Como manter as diversas instalações Python organizadas e acessíveis de maneira fácil?
@@ -42,7 +53,7 @@ Você verá uma lista de versões disponíveis
 
 (Para evitar a rolagem da tela use  "pyenv install -l | more" )
 
-Antes de instalar uma nova versão do Python você precisa de algumas dependências:
+# Antes de instalar uma nova versão do Python você precisa de algumas dependências:
 
 sudo apt install build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev \
@@ -117,7 +128,7 @@ Atualemnte o que você executar nesse local usuará a versão 3.7.
 Vamos agora criar um ambiente virtual e executar um código simples de exempo usando a biblioteca
 cefpython3.
 
-Crie um novo ambiente virtual dentro da pasta estudo-python:
+# Crie um novo ambiente virtual dentro da pasta estudo-python
 
 python -m venv amb-virtual
 
@@ -145,7 +156,7 @@ Agora copie o arquivo teste-cefpython3.py para dentro da pasta estudo-pyenv.
 
 Vamos rodar esse exemplo para testar se deu tudo certo
 
-Execute:
+# Execute:
 
 python teste-cefpython3.py
 
@@ -159,24 +170,6 @@ teste-cefpython3.py] CEF Python 66.0
 DevTools listening on ws://127.0.0.1:61995/devtools/browser/2e57b811-2ca1-4997-902d-7e81d1fa63de
 
 Será também aberta uma tela chromium com o google aberto e título da janela "Ola Mundo!"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
