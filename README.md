@@ -87,8 +87,11 @@ No meu caso já tenho mais de uma versão instalada:
 
 eonardo@localhost:~/estudo-pyenv$ pyenv versions
 * system (set by /home/leonardo/.pyenv/version)
+  
   3.7.17
+  
   3.12.2
+  
 leonardo@localhost:~/estudo-pyenv$
 
 Agora vamos setar a versão que desejamos usar localmente com
