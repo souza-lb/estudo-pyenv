@@ -85,7 +85,7 @@ pyenv versions
 
 No meu caso já tenho mais de uma versão instalada:
 
-eonardo@localhost:~/estudo-pyenv$ pyenv versions
+leonardo@localhost:~/estudo-pyenv$ pyenv versions
 * system (set by /home/leonardo/.pyenv/version)
   
   3.7.17
