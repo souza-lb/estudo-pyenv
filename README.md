@@ -116,9 +116,13 @@ pyenv versions
 Agora sua saída será:
 
 leonardo@localhost:~/estudo-pyenv$ pyenv versions
+
   system
+  
 * 3.7.17 (set by /home/leonardo/estudo-pyenv/.python-version)
+  
   3.12.2
+  
 leonardo@localhost:~/estudo-pyenv$ 
 
 Repare que o *(Asterisco) moveu para a versão que você selecionou.
