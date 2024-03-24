@@ -29,13 +29,18 @@ Agora execute no seu terminal com o usuário comum (nada de usar conta ROOT ou S
 
 curl https://pyenv.run | bash
 
-O comando exibirá uma saída solicitando que você edite seu bashrc.
+Ao final da instalação seré exibida uma saída solicitando que você edite seu bashrc.
+Por precaução efetue o backup do mesmo antes de editá-lo.
 
-para facilitar execute abaixo (se desejar pode editar manualmente também):
+cp ~/.bashrc ~/.bashrc.backup
 
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+nano ~/.bashrc
+
+Adicione ao final do arquivo:
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 Para efetivar as alterações abra e feche seu terminal ou execute:
 
