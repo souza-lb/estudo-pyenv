@@ -213,5 +213,6 @@ teste-cefpython3.py] CEF Python 66.0
 
 DevTools listening on ws://127.0.0.1:61995/devtools/browser/2e57b811-2ca1-4997-902d-7e81d1fa63de
 ```
+Será também aberta uma tela do chromium com o DuckDuckGo aberto e título da janela "Ola Mundo!" conforme imagem abaixo
 
-Será também aberta uma tela chromium com o google aberto e título da janela "Ola Mundo!"
+![Tela cefpython3](/tela.png)
