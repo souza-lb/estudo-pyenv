@@ -84,17 +84,17 @@ Agora aguarde um pouco <b>(tenha um pouco de paciência, será feito o download 
 Installed Python-3.7.17 to /home/leonardo/.pyenv/versions/3.7.17
 ``
 
-Vamos organizar um pouco as coisas, começe criando uma pasta "estudo-pyenv"
+Vamos organizar um pouco as coisas, começe criando uma pasta "estudo-pyenv-virtenv"
 eu já estou no terminal então faço:
 
 ```bash
-$ mkdir estudo-pyenv
+$ mkdir estudo-pyenv-virtenv
 ```
 
 Depois:
 
 ```bash
-$ cd estudo-pyenv
+$ cd estudo-pyenv-virtenv
 ```
 
 Agora vamos ver as versões de Python que podemos utilizar, para isso digite:
@@ -132,7 +132,7 @@ $ cat .python-version
 
 A saída será a versão do Python que você definiu com o pyenv local.
 
-Execute dentro da pasta que criamos (estudo-pyenv) :
+Execute dentro da pasta que criamos (estudo-pyenv-virtenv) :
 
 ```bash
 $ pyenv versions
