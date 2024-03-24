@@ -12,7 +12,7 @@ def main():
     check_versions()
     sys.excepthook = cef.ExceptHook  # para derrubar todos o processos cef em caso de erro.
     cef.Initialize()
-    cef.CreateBrowserSync(url="https://www.google.com/",
+    cef.CreateBrowserSync(url="https://duckduckgo.com/",
                           window_title="Ola Mundo!")
     cef.MessageLoop()
     cef.Shutdown()
