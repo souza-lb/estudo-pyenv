@@ -217,7 +217,7 @@ Será também aberta uma tela do chromium com o DuckDuckGo aberto e título da j
 
 ![Tela cefpython3](/tela_cefpython3.png)
 
-Este tutorial foi elaborado por <b>Leonardo Bruno</b>
-Seu uso e reprodução é livre com a referência ao repositório original.
-Encontrou algum erro? Quer sugerir alguma alreração?
-202301011744@alunos.estacio.br
+Este tutorial foi elaborado por <b>Leonardo Bruno</b><p>
+Seu uso e reprodução é livre com a referência ao repositório original.<p>
+Encontrou algum erro? Quer sugerir alguma alreração?<p>
+<b>202301011744@alunos.estacio.br</b>
