@@ -216,3 +216,8 @@ DevTools listening on ws://127.0.0.1:61995/devtools/browser/2e57b811-2ca1-4997-9
 Será também aberta uma tela do chromium com o DuckDuckGo aberto e título da janela "Ola Mundo!" conforme imagem abaixo
 
 ![Tela cefpython3](/tela_cefpython3.png)
+
+Este tutorial foi elaborado por <b>Leonardo Bruno</b>
+Seu uso e reprodução é livre com a referência ao repositório original.
+Encontrou algum erro? Quer sugerir alguma alreração?
+202301011744@alunos.estacio.br
